@@ -1,0 +1,36 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.main-title {
+    text-align: center;
+    color: darkred;
+    margin-bottom: 50px;
+}
+
+p {
+    margin: 0;
+}
+
+#ingredient-list {
+    color: rgb(244, 138, 0);
+}
+
+#ingredient-list li {
+    list-style: none;
+}
+
+
+#recept-proc {
+    color: rgb(193, 87, 37);
+}
+
+.sub-title {
+    color: red;
+}
+
+.s-bolt{
+    font-weight: 700;
+}
