@@ -1,0 +1,16 @@
+table {
+    border: 2px black solid;
+    background-color: beige;
+    border-spacing: 0;
+}
+
+th {
+   margin: 0;
+   background-color: red;
+   padding: 2px;
+   
+}
+
+td {
+    text-align: center;
+}
