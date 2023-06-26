@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Des formulaires pertinents</title>
+    <style>
+        input{
+            margin: 10px;
+            border-radius: 0%;
+            color: grey;
+        }
+
+        form{
+            width: 500px;
+            background-color: bisque;
+            margin: auto;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        form span{
+            width:2000px;
+        }
+    </style>
+</head>
+<body>
+
+<form action="/traitement" method="POST">
+    <label for="id-nom" >Prénom :</label><input type="text" name="prenom" value="Prénom" id="id-nom"><br>
+    <label for="date" >Date de naissance :</label> <input type="date" name="dateNaissance" value="Date de naissance" id="date"><br>
+    <label for="id-pass" >Mot de passe :</label> <input type="password" name="password" value="*******" id="id-pass"><br>
+<button type="submit">Envoyer ! </button>
+
+</form>
+
+</body>
+</html>
