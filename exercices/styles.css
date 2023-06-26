@@ -1,56 +1,56 @@
-html{
-	font-family: Georgia, serif;
+html {
+  font-family: Georgia, serif;
 }
 
-#logo{
-	float: left;
-	width : 10%;
-	margin:0;
+#logo {
+  float: left;
+  width: 10%;
+  margin: 0;
 }
 
-h1{
-	margin:40px 0;
-	float: left;
-	width: 90%;
-	color: purple;
-	text-align: center;
+h1 {
+  margin: 40px 0;
+  float: left;
+  width: 90%;
+  color: purple;
+  text-align: center;
 }
 
 #menu-top {
-	clear: left;
-	width: 500px;
-	margin: auto;
+  clear: left;
+  width: 500px;
+  margin: auto;
 }
 
-#menu-top menu-item{
-	display: block;
-	width: 80px;
-	float: left;
-	margin: 0 10px;
-	font-style: italic;
+#menu-top menu-item {
+  display: block;
+  width: 80px;
+  float: left;
+  margin: 0 10px;
+  font-style: italic;
 }
 
-#menu-left{
-	clear: left;
-	width: 25%;
-	float: left;
-	margin: 2%
+#menu-left {
+  clear: left;
+  width: 25%;
+  float: left;
+  margin: 2%;
 }
 
-#menu-left menu-item{
-	margin: 10px 0;
-	font-weight: bold;
-	display: block;
+#menu-left menu-item {
+  margin: 10px 0;
+  font-weight: bold;
+  display: block;
 }
 
-#main{
-	width: 60%;
-	float: left;
-	margin: 2%
+#main {
+  width: 60%;
+  float: left;
+  margin: 2%;
 }
 
-#main-image{
-	display: block;
-	margin: auto;
-	width: 90%;
+#main-image {
+  display: block;
+  margin: auto;
+  width: 90%;
 }
