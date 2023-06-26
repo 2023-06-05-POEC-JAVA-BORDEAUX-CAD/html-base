@@ -1,0 +1,156 @@
+:root {
+	/* Les couleurs */
+	--primary: #03dac5;
+	--secondary: #bb86fc;
+
+	--contrasted: #202020;
+	--contrasted-text: #dddddd;
+	--background: #121212;
+	--background-text: #fbfbfb;
+	--surface: #1f1f1f;
+	--surface-text: #e1e1e1;
+
+	--UI-contrast: #828282;
+}
+
+body.light {
+	/* Les couleurs */
+	--primary: #456b8c;
+	--secondary: #ff638b;
+
+	--contrasted: #ffffff;
+	--contrasted-text: #373737;
+	--background: #f5f6fa;
+	--background-text: #484e5a;
+	--surface: #e4e8f1;
+	--surface-text: #7c8493;
+
+	--UI-contrast: #b1bace;
+
+}
+
+body {
+	background: var(--background);
+	color: var(--background-text);
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	padding: 10px 0;
+	background: var(--contrasted);
+	color: var(--contrasted-text);
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Poppins", sans-serif;
+}
+
+h1 {
+	padding-left: 30px;
+	font-size: 36px;
+}
+
+h1:before {
+	background: var(--primary);
+	border-radius: 3px;
+	color: var(--primary);
+	content: "|";
+	margin-right: 16px;
+}
+
+h2 {
+	font-weight: 600;
+}
+
+h3 {
+	font-weight: 400;
+	font-size: 18px;
+}
+
+p {
+	text-align: justify;
+}
+
+a {
+	color: var(--primary);
+}
+
+b,
+strong {
+	font-weight: 600;
+	color: var(--primary);
+}
+
+i,
+em {
+	font-weight: 300;
+	color: var(--secondary);
+}
+
+.i-btn,
+.i-btn-2,
+.i-btn_outline,
+.i-btn_outline-2 {
+	background: transparent;
+	border: none;
+	border-radius: 5px;
+	box-sizing: border-box;
+	color: var(--contrasted);
+	cursor: pointer;
+	display: inline-block;
+	margin: 2px 4px;
+	width: min(160px, 90vw);
+	outline: none;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.i-btn {
+	background: var(--primary);
+}
+
+.i-btn-2 {
+	background: var(--primary);
+}
+
+.i-btn_outline {
+	border: 1px solid var(--primary);
+	color: var(--primary);
+}
+
+.i-btn_outline-2 {
+	border: 1px solid var(--secondary);
+	color: var(--secondary);
+}
+
+.disabled {
+	opacity: 0.4;
+	cursor: context-menu;
+}
+
+
+/* external / additional formatting */
+
+header>h1,
+section {
+	max-width: 700px;
+	margin: 16px auto;
+}
+
+main {
+	max-width: 800px;
+	margin: auto;
+}
+
+p.note {
+	background: #161616;
+    margin: min(4vw, 16px) auto;
+    padding: 24px;
+}
