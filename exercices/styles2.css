@@ -1,0 +1,31 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #02040F;
+  background-color: #E5DADA;
+  width: 66%;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #840032;
+  text-shadow: 2px 2px #E59500;
+}
+
+h2 {
+  color: #E59500;
+  text-decoration-line: underline;
+}
+
+.intro {
+  text-align: center;
+}
+
+.conseils {
+  font-style: italic;
+  color: #746F75;
+}
+
+.gras {
+  font-weight: bold;
+}
