@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <p>Bonjour tout le monde</p>
+
+    <a href="https://www.lemonde.fr">Apprenez-en plus en allant sur le monde</a>
+    <br>
+    <a href="./balises.html">La page des balises</a>
+    <a href="./mes-pages-cachees/index.html">La page d'index cachée</a>
+
+    <form action="http://mon-server.com/update-liens" method="POST">
+        <p> Ceci est un formulaire</p>
+        <div>
+            Prénom : <input type="text" name="prenom">
+        </div>
+        <div>
+            Date de Naissance : <input type="date" name="dateNaissance">
+        </div>
+        <div>
+            Password : <input type="password" name="password">
+        </div>
+
+        <div>
+            <label for="id-case-a-cocher">Choix : </label>
+            <input id="id-case-a-cocher" type="checkbox" name="case-a-cocher">
+        </div>
+        <input type="submit" value="Envoi données">
+    </form>
+
+</body>
+</html>
