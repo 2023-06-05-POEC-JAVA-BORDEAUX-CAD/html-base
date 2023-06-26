@@ -1,0 +1,42 @@
+html {
+	font-family: Georgia, serif;
+}
+
+#logo {
+	float: left;
+	width: 10%;
+	margin: 0;
+}
+
+h1 {
+	margin: 40px 0;
+	float: left;
+	width: 90%;
+	color: #95c131;
+	text-align: center;
+}
+
+h2 {
+	margin: 40px 0;
+	float: left;
+	width: 90%;
+	color: #293edf;
+}
+
+h3 {
+	margin: 40px 0;
+	width: 90%;
+	color: #c52828;
+}
+
+.main {
+	color: bisque;
+	width: 60%;
+	margin: 2%
+}
+
+#info {
+	color: rgb(47, 203, 71);
+	width: 60%;
+	margin: 2%
+}
