@@ -1,0 +1,42 @@
+body{
+ border: 40px;	
+}
+
+#desc {
+	font-weight: bold;
+}
+
+.ingredient {
+	color: purple;
+}
+
+.ingredient-principal {
+	text-decoration: underline;
+}
+
+#bordered{
+	border: solid 5px transparent;
+	border-radius: 10px;
+	background-image: linear-gradient(white, white),
+		linear-gradient(315deg, #833ab4, #fd1d1d 50%, #fcb045);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+
+#instruction li{
+	color: blueviolet;
+}
+
+
+.joli-tableau tr:nth-child(even) {background-color: #f2f2f2;}
+
+.joli-tableau th {
+  background-color: darkblue;
+  color: white;
+		font-weight: bold;
+}
+
+.joli-tableau .footer {
+  background-color: darkred;
+  color: white;
+}
