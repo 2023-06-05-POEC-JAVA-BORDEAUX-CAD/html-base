@@ -1,0 +1,13 @@
+h1 {
+    color :blue
+}
+
+.green_title{
+    color: green;
+    font-size: larger;
+}
+
+#red_title{
+    color: red;
+    font-size: small;
+}
