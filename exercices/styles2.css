@@ -20,10 +20,9 @@ td{
     border: 1px solid black;
 }
 
-#padding_right{
-    margin-right: 1000px;
-}
+
 
 tr{
     background-color: grey;
+    border-collapse: collapse;
 }
