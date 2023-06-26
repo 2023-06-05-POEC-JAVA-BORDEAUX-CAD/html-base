@@ -3,13 +3,14 @@ html {
 }
 
 body {
-  background-color: rgb(94, 189, 240);
+  background-color: rgb(155, 215, 248);
   color: #081070;
   text-align: center;
 }
 
 .liste {
   border: #081070 2px solid;
+  border-radius: 10px;
   box-shadow: 10px 5px 5px #081070;
   width: 300px;
   padding: 20px;
@@ -26,4 +27,5 @@ p {
   width: 500px;
   margin: auto;
   margin-top: 25px;
+  text-align: justify;
 }
