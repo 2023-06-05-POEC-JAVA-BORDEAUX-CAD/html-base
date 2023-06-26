@@ -7,45 +7,43 @@
   </head>
   <body>
     <table>
-      <tr>
+      <thead>
         <th>Référence article</th>
         <th>Libellé article</th>
         <th>Prix unitaire</th>
         <th>Quantité</th>
         <th>Prix total</th>
-      </tr>
+      </thead>
 
-      <tr>
+      <tbody>
         <td>xxxx</td>
         <td>clavier</td>
         <td>12€</td>
         <td>2</td>
         <td>24€</td>
-      </tr>
+      </tbody>
 
-      <tr>
+      <tbody>
         <td>yyyy</td>
         <td>souris</td>
         <td>20€</td>
         <td>3</td>
         <td>60€</td>
-      </tr>
+      </tbody>
 
-      <tr>
+      <tbody>
         <td>zzzz</td>
         <td>écran</td>
         <td>50€</td>
         <td>1</td>
         <td>50€</td>
-      </tr>
+      </tbody>
 
-      <tr>
-        <td>Total</td>
-        <td></td>
-        <td></td>
-        <td></td>
+      <tfoot>
+        <td colspan="4">Total</td>
         <td>134€</td>
-      </tr>
+      </tfoot>
     </table>
   </body>
 </html>
+<!-- table>(thead>tr>th*5)+(tbody>(tr>td*5)*3)+tfoot>tr>td*2 -->
