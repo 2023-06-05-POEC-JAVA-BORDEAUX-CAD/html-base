@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 06</title>
+    <style>
+        form{
+            max-width: 600px;
+            margin: auto;
+            margin-top: 50px;
+            border: solid 1px #000;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .input-group{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+
+        button:first-child{
+            margin-bottom: 10px;
+        }
+
+        label{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form action="exercice-XX.html" method="POST">
+        <div class="input-group">
+            <label for="inputpseudo">Votre pseudo : </label>
+            <input type="text" id="pseudo"name="pseudo" placeholder="Entrez votre nom">
+        </div>
+        <div class="input-group">
+            <label for="inputpassword">Votre password : </label>
+            <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe">
+        </div>
+        <div class="input-group">
+            <label for="birth">Votre date de naissance : </label>
+            <input type="date" id="birth" name="birth">
+        </div>
+        <div class="input-group">
+            <button type="submit">Envoyer</button>
+            <button type="reset">Réinitialiser le formulaire</button>
+        </div>        
+    </form>    
+</body>
+</html>
